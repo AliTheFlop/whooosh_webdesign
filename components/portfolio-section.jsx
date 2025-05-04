@@ -13,6 +13,13 @@ export function PortfolioSection() {
             image: 'https://images.pexels.com/photos/6863174/pexels-photo-6863174.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
             link: 'https://theoracle.whooosh.net',
         },
+        {
+            title: 'Atlas Law',
+            category: 'Law Firm',
+            description: 'A conversion-focused 3 paged website for a law firm.',
+            image: 'https://images.pexels.com/photos/8111815/pexels-photo-8111815.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+            link: 'https://atlaslaw.whooosh.net',
+        },
     ];
 
     return (
