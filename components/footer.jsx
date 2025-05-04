@@ -170,13 +170,6 @@ export function Footer() {
                         </div>
                     </div>
                 </div>
-
-                <div className="mt-16 pt-8 border-t border-border/50 text-center text-muted-foreground">
-                    <p>
-                        &copy; {new Date().getFullYear()} PixelPerfect. All
-                        rights reserved.
-                    </p>
-                </div>
             </div>
         </footer>
     );
