@@ -7,24 +7,11 @@ import { ArrowRight } from 'lucide-react';
 export function PortfolioSection() {
     const projects = [
         {
-            title: 'TechVision Rebrand',
-            category: 'Technology',
-            description:
-                'A complete overhaul with 200% increase in ad revenue.',
-            image: 'https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-        },
-        {
-            title: 'Culinary Delight',
-            category: 'Food & Beverage',
-            description:
-                'Strategic ad placement with enhanced user experience.',
-            image: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-        },
-        {
-            title: 'FitLife Platform',
-            category: 'Fitness',
-            description: 'Conversion-focused design with premium ad spaces.',
-            image: 'https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+            title: 'The Oracle',
+            category: 'Accounting',
+            description: 'A complete overhaul, a modern & sleek landing page.',
+            image: 'https://images.pexels.com/photos/6863174/pexels-photo-6863174.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+            link: 'https://theoracle.whooosh.net',
         },
     ];
 
@@ -71,15 +58,15 @@ export function PortfolioSection() {
                                     <p className="text-white/90 mb-4">
                                         {project.description}
                                     </p>
-                                    <Link href="/contact">
+                                    <a href={project.link} target="_blank">
                                         <Button
                                             variant="outline"
-                                            className="text-white border-white/30 hover:bg-white/10 hover:border-white"
+                                            className="text-foreground border-white/30 hover:bg-white/10 hover:border-white"
                                         >
                                             View Project
                                             <ArrowRight className="ml-2 h-4 w-4" />
                                         </Button>
-                                    </Link>
+                                    </a>
                                 </div>
                             </div>
                         </ScrollAnimation>
