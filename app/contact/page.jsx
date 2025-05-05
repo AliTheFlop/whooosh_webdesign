@@ -17,7 +17,7 @@ export default function Contact() {
                 <ScrollAnimation>
                     <div className="max-w-3xl mx-auto text-center mb-16">
                         <h1 className="text-4xl md:text-5xl font-bold mb-4">
-                            Let's Get You Ready
+                            Let&apos;s Get You Ready
                         </h1>
                         <p className="text-xl text-muted-foreground">
                             Our team of design experts is ready to transform
@@ -35,9 +35,9 @@ export default function Contact() {
                                 </h2>
                                 <p className="text-muted-foreground mb-8">
                                     Whether you need a complete website
-                                    redesign, ad optimization, or just want to
-                                    learn more about our services, we're here to
-                                    help.
+                                    redesign, optimizations, hosting, or just
+                                    want to learn more about our services,
+                                    we&apos;re here to help.
                                 </p>
 
                                 <div className="space-y-6">
@@ -104,7 +104,7 @@ export default function Contact() {
                                     fallback={<Skeleton className="h-full" />}
                                 >
                                     <iframe
-                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50470.77734915262!2d-122.47261174803761!3d37.75776988087253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1689823175628!5m2!1sen!2sus"
+                                        src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=sydney,%20nsw+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
                                         className="w-full h-full border-0"
                                         allowFullScreen
                                         loading="lazy"
@@ -122,8 +122,8 @@ export default function Contact() {
                                     Send Us a Message
                                 </h2>
                                 <p className="text-muted-foreground">
-                                    Fill out the form below and we'll get back
-                                    to you within 24 hours.
+                                    Fill out the form below and we&apos;ll get
+                                    back to you within 24 hours.
                                 </p>
                             </div>
                             <ContactForm />

@@ -61,12 +61,12 @@ export function ServicesSection() {
                 <ScrollAnimation>
                     <div className="max-w-2xl mx-auto text-center mb-16">
                         <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                            Transform Your Online Presence
+                            What We Do For You
                         </h2>
                         <p className="text-lg text-muted-foreground">
-                            We combine stunning aesthetics with strategic ad
-                            placement to create websites that are beautiful{' '}
-                            <em>and</em> profitable.
+                            We combine modern design techniques with strategic
+                            ad placement to create websites that are both
+                            beautiful <em>and</em> profitable.
                         </p>
                     </div>
                 </ScrollAnimation>

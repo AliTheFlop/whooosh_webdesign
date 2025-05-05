@@ -70,8 +70,8 @@ export function ContactForm() {
                         Thank you for reaching out!
                     </h3>
                     <p className="text-muted-foreground mb-6">
-                        Your message has been sent successfully. We'll get back
-                        to you within 24 hours.
+                        Your message has been sent successfully. We&apos;ll get
+                        back to you within 24 hours.
                     </p>
                     <Button
                         onClick={() => setIsSubmitted(false)}

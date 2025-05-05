@@ -36,14 +36,15 @@ export function HeroSection() {
                     >
                         <div className="space-y-4">
                             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight tracking-tighter">
-                                Creating Websites That{' '}
+                                Never Miss A{' '}
                                 <span className="bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400 bg-clip-text text-transparent">
-                                    Book Calls.
+                                    High-Value
                                 </span>
+                                Client.
                             </h1>
                             <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto lg:mx-0">
-                                Get More Leads With Ad-Optimized Websites That
-                                Look Stunning To Your Visitors.
+                                Secure More Leads With A Custom Website
+                                That&apos;s Built For Your Brand.
                             </p>
                         </div>
 

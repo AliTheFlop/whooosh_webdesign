@@ -28,12 +28,11 @@ export function PortfolioSection() {
                 <ScrollAnimation>
                     <div className="max-w-2xl mx-auto text-center mb-16">
                         <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                            Our Featured Projects
+                            Recent Projects
                         </h2>
                         <p className="text-lg text-muted-foreground">
-                            Explore how we&apos;ve helped businesses transform
-                            their digital presence while maximizing ad revenue
-                            potential.
+                            Explore how we can help you transform your website,
+                            while maximizing ad revenue potential.
                         </p>
                     </div>
                 </ScrollAnimation>

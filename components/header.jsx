@@ -34,7 +34,7 @@ export function Header() {
                     className="font-semibold text-xl flex items-center"
                 >
                     <span className="bg-gradient-to-r from-primary to-blue-500 bg-clip-text text-transparent">
-                        Whooosh
+                        Whooosh.net
                     </span>
                 </Link>
 

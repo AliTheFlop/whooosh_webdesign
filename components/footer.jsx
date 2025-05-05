@@ -142,14 +142,6 @@ export function Footer() {
                                     Conversion Rate Optimization
                                 </Link>
                             </li>
-                            <li>
-                                <Link
-                                    href="/contact"
-                                    className="text-muted-foreground hover:text-foreground transition-colors"
-                                >
-                                    Branding Strategy
-                                </Link>
-                            </li>
                         </ul>
                     </div>
 
