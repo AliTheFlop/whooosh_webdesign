@@ -38,7 +38,7 @@ export function HeroSection() {
                             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight tracking-tighter">
                                 Never Miss A{' '}
                                 <span className="bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400 bg-clip-text text-transparent">
-                                    High-Value
+                                    High-Value{' '}
                                 </span>
                                 Client.
                             </h1>
